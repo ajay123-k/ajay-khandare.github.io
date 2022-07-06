@@ -1,0 +1,185 @@
+body p span a {
+    font-size: 19px;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+.active {
+    color: rgb(255, 169, 0) !important;
+}
+
+nav .nav-link:hover {
+    color: rgb(255, 169, 0);
+}
+
+nav .navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-size: 25px;
+    margin: 0px 5px;
+}
+
+.social-icons i {
+    margin: 0px 10px;
+    font-size: 25px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    opacity: 1;
+}
+
+.main-cont {
+    height: 823px;
+    background-repeat: no-repeat;
+    background-color: black;
+    /* opacity: 0.9; */
+    overflow: hidden;
+    /* margin-top: ; */
+}
+
+.main-row {
+    margin-top: 50px;
+}
+
+.main-row img {
+    background-attachment: scroll;
+}
+
+.main-img {
+    border: 3px solid rgb(4, 125, 147);
+}
+
+.main-head {
+    font-size: 80px;
+    color: white;
+}
+
+.main-head2 {
+    font-size: 70px;
+    color: white;
+}
+
+.post {
+    font-size: 35px;
+    color: white;
+}
+
+.short-disc {
+    font-size: 20px;
+    color: white;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.services h1 {
+    font-size: 55px;
+    color: black;
+    font-weight: bold;
+}
+
+.services p {
+    font-size: 21px;
+}
+
+.portfolio h1 {
+    font-size: 55px;
+    color: black;
+    font-weight: bold;
+}
+
+.portfolio p {
+    font-size: 21px;
+}
+
+.icon1 {
+    border: 8px solid #0078FF;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.main-line {
+    font-family: 'Courgette', cursive;
+}
+
+.service-line {
+    font-family: 'Marck Script', cursive;
+    font-size: 35px;
+}
+
+.work-line {
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+label::after {
+    content: '*';
+    color: red;
+    font-weight: bold;
+}
+
+hr {
+    width: 100px;
+    font-weight: bolder;
+    border: 2px solid red;
+    /* height: 10px; */
+}
+
+@media screen and (max-width:576px) {
+    .main-cont {
+        /* height: 612px; */
+        /* min-height: 610px; */
+        height: 780px;
+        background-repeat: no-repeat;
+        background-color: black;
+        overflow: hidden;
+    }
+    .main-img {
+        border: 3px solid rgb(4, 125, 147);
+    }
+    .main-head {
+        font-size: 50px;
+        color: white;
+    }
+    .post {
+        font-size: 25px;
+        color: white;
+    }
+    .main-row {
+        margin-top: 30px;
+    }
+    nav {
+        background-color: black;
+        color: white;
+        font-weight: 400;
+    }
+    nav .nav-link {
+        color: white;
+    }
+    .active {
+        border-bottom: none;
+    }
+}
